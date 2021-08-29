@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 tasks = ["foo", "bar", "baz"]
-# Create your views here.
+# Create your views hre.
 def index(request):
     return render(request, "tasks/index.html", {
         'tasks': tasks
